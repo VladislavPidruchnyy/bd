@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.0" />
+    <PackageReference Include="ScottPlot" Version="4.1.27" />
   </ItemGroup>
 
   <PropertyGroup>

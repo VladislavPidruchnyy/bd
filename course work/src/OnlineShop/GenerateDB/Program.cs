@@ -98,6 +98,10 @@ namespace GeneratorDB
                     return;
 
                 }
+                else if(input == "generategraph")
+                {
+                    GenerateGraph();
+                }
                 else if (input == "add user")
                 {
 
@@ -240,6 +244,15 @@ namespace GeneratorDB
                     break;
                 }
 
+            }
+            static void GenerateGraph()
+            {
+                double[] xs = { 15, 19, 20 };
+                double[] ys = { 2, 1, 1 };
+                var plt = new ScottPlot.Plot(400, 300);
+                plt.AddScatter(xs, ys);
+                plt.SaveFig("./graphcountorders.png");
+                Console.WriteLine("Graph generated succesfully!");
             }
         }
     }
