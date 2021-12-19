@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Products>
+  <Phone ID="1" Price="1399" Availability="true" Created_At="2021-06-04T03:27:57.7907038+03:00" />
+  <Keybord ID="2" Price="374" Availability="true" Created_At="2021-06-04T03:33:41.3373122+03:00" />
+  <Mobile_Phone ID="30" Price="1000" Availability="true" Created_At="2021-06-04T20:41:15.051379" />
+</Products>
